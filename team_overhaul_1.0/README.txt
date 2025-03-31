@@ -5,6 +5,8 @@
   · This pack needs a forced enchanted item on the players in order to manage friendly fire.
 
 # NOTES ON BEHAVIOUR 
+  > load/uninstall messages
+    · they target Leinad677YT in their respective tellraws, I recommend you to replace it with a selector that fits your purposes 
   > serverside teams
     · Players can join a team if
       - it was the last one they were invited to
@@ -13,6 +15,13 @@
     · They are example functions, you should mind changing them
 
 # USEFUL FUNCTIONS
+- I'd recommend to see this functions before starting, as they contain the core of the datapack 
+
+  · LOAD FUNCTION
+    > datapack_tech:load_team_overhaul
+  · UNINSTALL FUNCTION
+    > datapack_tech:uninstall_team_overhaul
+
   > team:update_player {name:"PLAYER"} 
     · Changes the prefix and suffix of PLAYER depending on which scores they have (see function team:get_prefix & team:get_suffix)
   > team:serverside/* // if the executor doesn't have a team, invite and list will create one for them
@@ -22,9 +31,6 @@
     · team:serverside/list {} displays the current team the player is on
 
 # DEPENDENCIES
-  · LOAD FUNCTION
-    > datapack_tech:load_team_overhaul
-
   · NEEDED:
     > player id assigner
       · Required for players to have the score "playercount" as a numeric ID in order to assign serverside teams  
