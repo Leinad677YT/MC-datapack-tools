@@ -1,0 +1,42 @@
+{
+    "condition": "entity_scores",
+    "entity": "this",
+    "scores": {
+        "team.invited": {
+            "max": {
+                "type": "score",
+                "score": "player_id",
+                "target": {
+                    "type": "fixed",
+                    "name": "#temp"
+                }
+            },
+            "min": {
+                "type": "score",
+                "score": "player_id",
+                "target": {
+                    "type": "fixed",
+                    "name": "#temp"
+                }
+            }
+        },
+        "team.current": {
+            "max": {
+                "type": "score",
+                "score": "team.invited",
+                "target": {
+                    "type": "fixed",
+                    "name": "#temp"
+                }
+            },
+            "min": {
+                "type": "score",
+                "score": "team.invited",
+                "target": {
+                    "type": "fixed",
+                    "name": "#temp"
+                }
+            }
+        }
+    }
+}

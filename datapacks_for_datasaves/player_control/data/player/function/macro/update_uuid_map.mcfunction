@@ -1,0 +1,1 @@
+$data modify storage player:map $(list)[{uuid:$(uuid)}].name set value "$(name)"
