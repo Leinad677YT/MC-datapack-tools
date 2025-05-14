@@ -1,0 +1,2 @@
+# THIS FUNCTION SHOULD BE USED TO DETERMINE WHAT TO EXECUTE BASED ON THEIR DATA
+execute align xyz run summon armor_stand ~.5 ~ ~.5

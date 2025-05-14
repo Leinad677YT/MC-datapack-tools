@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"a": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "brewing_stand",
+								"predicates": {
+									"custom_data": {
+										"placed_block":{}
+									}
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "leinblocks:check_nearby"
+	}
+}

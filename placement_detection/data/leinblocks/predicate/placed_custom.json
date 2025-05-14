@@ -1,0 +1,13 @@
+{
+	"condition": "location_check",
+	"predicate": {
+		"block": {
+			"blocks": "brewing_stand",
+			"predicates": {
+				"custom_data": {
+					"placed_block":{}
+				}
+			}
+		}
+	}
+}
